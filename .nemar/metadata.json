@@ -2,6 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "enriched",
   "title": "Magnetoencephalographic (MEG) Pitch and Duration Mismatch Negativity (MMN) in First-Episode Psychosis",
+  "description": "This magnetoencephalographic (MEG) dataset comprises auditory oddball paradigm recordings from participants with first-episode psychosis and healthy controls, designed to investigate mismatch negativity (MMN) responses to pitch and duration deviants. The study includes three participant groups: healthy controls, first-episode schizophrenia, and first-episode affective psychosis patients. Data were collected as part of the Pittsburgh Early Psychosis Program between December 2017 and September 2021. The dataset includes clinical, neuropsychological, demographic, and medication data in the derivatives.",
+  "methods_description": "MEG recordings were acquired during an auditory oddball paradigm featuring standard tones, pitch deviants, and duration deviants. Participant groups included healthy controls (HC), first-episode schizophrenia (FESZ), and first-episode affective psychosis (FEAFF) patients. Clinical, neuropsychological, demographic, and medication data are provided in the derivatives.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -10,12 +12,36 @@
     "Brian Coffman": {},
     "Dean Salisbury": {}
   },
-  "related_identifiers": [
+  "keywords": [
     {
-      "identifier": "10.18112/openneuro.ds004837.v1.0.2",
-      "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
+      "term": "Magnetoencephalography",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D015225"
     },
+    {
+      "term": "mismatch negativity",
+      "subject_scheme": "MeSH"
+    },
+    {
+      "term": "psychosis",
+      "subject_scheme": "MeSH"
+    },
+    {
+      "term": "auditory oddball paradigm"
+    },
+    {
+      "term": "first-episode psychosis"
+    },
+    {
+      "term": "Schizophrenia",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D012559"
+    },
+    {
+      "term": "Pittsburgh Early Psychosis Program"
+    }
+  ],
+  "related_identifiers": [
     {
       "identifier": "https://github.com/nemarDatasets/on004837",
       "identifier_type": "URL",
@@ -30,6 +56,11 @@
       "identifier": "10.1111/ejn.16107",
       "identifier_type": "DOI",
       "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds004837.v1.0.2",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
     }
   ],
   "funding_references": [
@@ -42,13 +73,13 @@
       "award_number": "R01 MH113533"
     }
   ],
+  "resource_type_specific": "Structural MRI Dataset",
   "modalities": [
     "anat",
     "meg"
   ],
-  "resource_type_specific": "Structural MRI Dataset",
   "sizes": [
-    "0.0 KB (1 files)"
+    "128.8 GB (170 files)"
   ],
   "formats": [
     ".csv",
@@ -57,63 +88,8 @@
     ".json",
     ".mat",
     ".md",
-    ".tsv"
+    ".tsv",
+    ".yml"
   ],
-  "description": "This magnetoencephalographic (MEG) dataset comprises auditory oddball recordings from participants with first-episode psychosis and healthy controls, designed to investigate mismatch negativity (MMN) responses to pitch and duration deviants. The study includes 147 participants across three groups: healthy controls, first-episode schizophrenia, and first-episode affective psychosis, collected between December 2017 and September 2021. MMN is a neurophysiological marker of automatic auditory processing and cognitive dysfunction in psychotic disorders.",
-  "methods_description": "MEG data were acquired during an auditory oddball paradigm consisting of standard tones, pitch deviants, and duration deviants. Participants were categorized into three groups: healthy controls (HC), first-episode schizophrenia (FESZ), and first-episode affective psychosis (FEAFF). Clinical, neuropsychological, demographic, and medication data are provided in the derivatives.",
-  "keywords": [
-    {
-      "term": "Magnetoencephalography",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D015225"
-    },
-    {
-      "term": "mismatch negativity",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D058185"
-    },
-    {
-      "term": "first-episode psychosis",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D011605"
-    },
-    {
-      "term": "first-episode schizophrenia",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D012559"
-    },
-    {
-      "term": "affective psychosis",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D011605"
-    },
-    {
-      "term": "auditory processing",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D001307"
-    },
-    {
-      "term": "oddball paradigm"
-    },
-    {
-      "term": "pitch deviant"
-    },
-    {
-      "term": "duration deviant"
-    },
-    {
-      "term": "Schizophrenia",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D012559"
-    },
-    {
-      "term": "event-related potentials"
-    },
-    {
-      "term": "clinical neurophysiology",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D002986"
-    }
-  ],
-  "source_hash": "2c52c2f845a6a6a83f1884f4196d56b573c906be0b617c41d4c972bc905882dc"
+  "source_hash": "658da9faa1b984ed76e6e620bd826265dbfb5fc3de040769489aa333025707a9"
 }
