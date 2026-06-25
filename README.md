@@ -1,3 +1,5 @@
+[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.on004837-blue)](https://doi.org/10.82901/nemar.on004837)
+
 Project Title: Pittsburgh Early Psychosis Program (PEPP): Mismatch Negativity (MMN) in First-Episode Psychosis
 
 Expected experimentation period:
